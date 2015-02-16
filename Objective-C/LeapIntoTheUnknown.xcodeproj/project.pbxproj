@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01CC19AB1A92908200DB6643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CC19AA1A92908200DB6643 /* AppDelegate.m */; };
+		01CC19AD1A92908200DB6643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CC19AC1A92908200DB6643 /* main.m */; };
+		01CC19B01A92908200DB6643 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CC19AF1A92908200DB6643 /* ViewController.m */; };
+		01CC19B21A92908200DB6643 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01CC19B11A92908200DB6643 /* Images.xcassets */; };
+		01CC19B51A92908200DB6643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01CC19B31A92908200DB6643 /* Main.storyboard */; };
+		01CC19C11A92908200DB6643 /* LeapIntoTheUnknownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CC19C01A92908200DB6643 /* LeapIntoTheUnknownTests.m */; };
+		01CC19D11A9290F600DB6643 /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 01CC19CF1A9290F600DB6643 /* LeapObjectiveC.mm */; };
+		01CC19D31A92914600DB6643 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CC19D21A92914600DB6643 /* libLeap.dylib */; };
+		01CC19D51A92919800DB6643 /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 01CC19D21A92914600DB6643 /* libLeap.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01CC19BB1A92908200DB6643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01CC199C1A92908200DB6643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01CC19A31A92908200DB6643;
+			remoteInfo = LeapIntoTheUnknown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01CC19D41A92918000DB6643 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				01CC19D51A92919800DB6643 /* libLeap.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01CC19A41A92908200DB6643 /* LeapIntoTheUnknown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeapIntoTheUnknown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CC19A81A92908200DB6643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CC19A91A92908200DB6643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01CC19AA1A92908200DB6643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01CC19AC1A92908200DB6643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01CC19AE1A92908200DB6643 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01CC19AF1A92908200DB6643 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01CC19B11A92908200DB6643 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01CC19B41A92908200DB6643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01CC19BA1A92908200DB6643 /* LeapIntoTheUnknownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeapIntoTheUnknownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CC19BF1A92908200DB6643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CC19C01A92908200DB6643 /* LeapIntoTheUnknownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeapIntoTheUnknownTests.m; sourceTree = "<group>"; };
+		01CC19CB1A9290F600DB6643 /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
+		01CC19CD1A9290F600DB6643 /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapMath.h; sourceTree = "<group>"; };
+		01CC19CE1A9290F600DB6643 /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapObjectiveC.h; sourceTree = "<group>"; };
+		01CC19CF1A9290F600DB6643 /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LeapObjectiveC.mm; sourceTree = "<group>"; };
+		01CC19D21A92914600DB6643 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libLeap.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01CC19A11A92908200DB6643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CC19D31A92914600DB6643 /* libLeap.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CC19B71A92908200DB6643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CC199B1A92908200DB6643 = {
+			isa = PBXGroup;
+			children = (
+				01CC19A61A92908200DB6643 /* LeapIntoTheUnknown */,
+				01CC19BD1A92908200DB6643 /* LeapIntoTheUnknownTests */,
+				01CC19A51A92908200DB6643 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01CC19A51A92908200DB6643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01CC19A41A92908200DB6643 /* LeapIntoTheUnknown.app */,
+				01CC19BA1A92908200DB6643 /* LeapIntoTheUnknownTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01CC19A61A92908200DB6643 /* LeapIntoTheUnknown */ = {
+			isa = PBXGroup;
+			children = (
+				01CC19CA1A9290AF00DB6643 /* Leap Component */,
+				01CC19A91A92908200DB6643 /* AppDelegate.h */,
+				01CC19AA1A92908200DB6643 /* AppDelegate.m */,
+				01CC19AE1A92908200DB6643 /* ViewController.h */,
+				01CC19AF1A92908200DB6643 /* ViewController.m */,
+				01CC19B11A92908200DB6643 /* Images.xcassets */,
+				01CC19B31A92908200DB6643 /* Main.storyboard */,
+				01CC19A71A92908200DB6643 /* Supporting Files */,
+			);
+			path = LeapIntoTheUnknown;
+			sourceTree = "<group>";
+		};
+		01CC19A71A92908200DB6643 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01CC19A81A92908200DB6643 /* Info.plist */,
+				01CC19AC1A92908200DB6643 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01CC19BD1A92908200DB6643 /* LeapIntoTheUnknownTests */ = {
+			isa = PBXGroup;
+			children = (
+				01CC19C01A92908200DB6643 /* LeapIntoTheUnknownTests.m */,
+				01CC19BE1A92908200DB6643 /* Supporting Files */,
+			);
+			path = LeapIntoTheUnknownTests;
+			sourceTree = "<group>";
+		};
+		01CC19BE1A92908200DB6643 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01CC19BF1A92908200DB6643 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01CC19CA1A9290AF00DB6643 /* Leap Component */ = {
+			isa = PBXGroup;
+			children = (
+				01CC19CB1A9290F600DB6643 /* Leap.h */,
+				01CC19CD1A9290F600DB6643 /* LeapMath.h */,
+				01CC19CE1A9290F600DB6643 /* LeapObjectiveC.h */,
+				01CC19CF1A9290F600DB6643 /* LeapObjectiveC.mm */,
+				01CC19D21A92914600DB6643 /* libLeap.dylib */,
+			);
+			name = "Leap Component";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01CC19A31A92908200DB6643 /* LeapIntoTheUnknown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CC19C41A92908200DB6643 /* Build configuration list for PBXNativeTarget "LeapIntoTheUnknown" */;
+			buildPhases = (
+				01CC19A01A92908200DB6643 /* Sources */,
+				01CC19A11A92908200DB6643 /* Frameworks */,
+				01CC19A21A92908200DB6643 /* Resources */,
+				01CC19D41A92918000DB6643 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeapIntoTheUnknown;
+			productName = LeapIntoTheUnknown;
+			productReference = 01CC19A41A92908200DB6643 /* LeapIntoTheUnknown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01CC19B91A92908200DB6643 /* LeapIntoTheUnknownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CC19C71A92908200DB6643 /* Build configuration list for PBXNativeTarget "LeapIntoTheUnknownTests" */;
+			buildPhases = (
+				01CC19B61A92908200DB6643 /* Sources */,
+				01CC19B71A92908200DB6643 /* Frameworks */,
+				01CC19B81A92908200DB6643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01CC19BC1A92908200DB6643 /* PBXTargetDependency */,
+			);
+			name = LeapIntoTheUnknownTests;
+			productName = LeapIntoTheUnknownTests;
+			productReference = 01CC19BA1A92908200DB6643 /* LeapIntoTheUnknownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01CC199C1A92908200DB6643 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Nick;
+				TargetAttributes = {
+					01CC19A31A92908200DB6643 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					01CC19B91A92908200DB6643 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 01CC19A31A92908200DB6643;
+					};
+				};
+			};
+			buildConfigurationList = 01CC199F1A92908200DB6643 /* Build configuration list for PBXProject "LeapIntoTheUnknown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01CC199B1A92908200DB6643;
+			productRefGroup = 01CC19A51A92908200DB6643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01CC19A31A92908200DB6643 /* LeapIntoTheUnknown */,
+				01CC19B91A92908200DB6643 /* LeapIntoTheUnknownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01CC19A21A92908200DB6643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CC19B21A92908200DB6643 /* Images.xcassets in Resources */,
+				01CC19B51A92908200DB6643 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CC19B81A92908200DB6643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01CC19A01A92908200DB6643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CC19B01A92908200DB6643 /* ViewController.m in Sources */,
+				01CC19AD1A92908200DB6643 /* main.m in Sources */,
+				01CC19D11A9290F600DB6643 /* LeapObjectiveC.mm in Sources */,
+				01CC19AB1A92908200DB6643 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CC19B61A92908200DB6643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CC19C11A92908200DB6643 /* LeapIntoTheUnknownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01CC19BC1A92908200DB6643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01CC19A31A92908200DB6643 /* LeapIntoTheUnknown */;
+			targetProxy = 01CC19BB1A92908200DB6643 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01CC19B31A92908200DB6643 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CC19B41A92908200DB6643 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01CC19C21A92908200DB6643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01CC19C31A92908200DB6643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01CC19C51A92908200DB6643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LeapIntoTheUnknown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LeapIntoTheUnknown",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01CC19C61A92908200DB6643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LeapIntoTheUnknown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LeapIntoTheUnknown",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01CC19C81A92908200DB6643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeapIntoTheUnknownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeapIntoTheUnknown.app/Contents/MacOS/LeapIntoTheUnknown";
+			};
+			name = Debug;
+		};
+		01CC19C91A92908200DB6643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeapIntoTheUnknownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeapIntoTheUnknown.app/Contents/MacOS/LeapIntoTheUnknown";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01CC199F1A92908200DB6643 /* Build configuration list for PBXProject "LeapIntoTheUnknown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CC19C21A92908200DB6643 /* Debug */,
+				01CC19C31A92908200DB6643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01CC19C41A92908200DB6643 /* Build configuration list for PBXNativeTarget "LeapIntoTheUnknown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CC19C51A92908200DB6643 /* Debug */,
+				01CC19C61A92908200DB6643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01CC19C71A92908200DB6643 /* Build configuration list for PBXNativeTarget "LeapIntoTheUnknownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CC19C81A92908200DB6643 /* Debug */,
+				01CC19C91A92908200DB6643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01CC199C1A92908200DB6643 /* Project object */;
+}
